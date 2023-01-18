@@ -27,11 +27,11 @@ export default function FeedbackForm() {
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
 
         <p>Please select your age:</p>
-          <input type="radio" id="age1" name="age" value="30" />
+          <input type="radio" id="age1" name="age" value="young" />
           <label for="age1">0 - 30</label><br/>
-          <input type="radio" id="age2" name="age" value="60" />
+          <input type="radio" id="age2" name="age" value="average" />
           <label for="age2">31 - 60</label><br/>  
-          <input type="radio" id="age3" name="age" value="100" />
+          <input type="radio" id="age3" name="age" value="old" />
           <label for="age3">61 - 100</label><br/><br/>
           
 

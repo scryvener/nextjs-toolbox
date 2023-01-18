@@ -13,7 +13,7 @@ export default function FeedbackForm() {
         <input type="hidden" name="form-name" value="feedback" />
         <p className={styles.hidden}>
             <label>
-            Don’t fill this out if you’re human: <input name="bot-field" />
+            Don't fill this out if you're human: <input name="bot-field" />
             </label>
         </p>
   
@@ -25,6 +25,16 @@ export default function FeedbackForm() {
 
         <label htmlFor="feedback">What is your feedback?</label>
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
+
+        <p>Please select your age:</p>
+          <input type="radio" id="age1" name="age" value="30" />
+          <label for="age1">0 - 30</label><br/>
+          <input type="radio" id="age2" name="age" value="60" />
+          <label for="age2">31 - 60</label><br/>  
+          <input type="radio" id="age3" name="age" value="100" />
+          <label for="age3">61 - 100</label><br/><br/>
+          
+
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )

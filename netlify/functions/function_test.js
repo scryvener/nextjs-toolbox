@@ -5,7 +5,7 @@ export const handler = async (event) => {
     var j=10;
     
     var k=i+j
-    console.log(k)
+    //console.log(k)
 
     // Netlify Functions need to return an object with a statusCode
     // Other properties such as headers or body can also be included.

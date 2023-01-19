@@ -22,7 +22,7 @@ export default function Home() {
         <FeedbackForm />
         <JokeBlock />
 
-        <p script="/.netlify/functions/function_test"></p>
+        <div script="/.netlify/functions/function_test"></div>
       </main>
       <Footer />
     </div>

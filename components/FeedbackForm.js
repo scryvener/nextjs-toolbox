@@ -26,6 +26,7 @@ export default function FeedbackForm() {
         <label htmlFor="feedback">What is your feedback?</label>
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
 
+        {/* radio button is pulling value for selection */}
         <p>Please select your age:</p>
           <input type="radio" id="age1" name="age" value="young" />
           <label for="age1">0 - 30</label><br/>

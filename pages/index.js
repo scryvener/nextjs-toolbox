@@ -21,6 +21,8 @@ export default function Home() {
         </p>
         <FeedbackForm />
         <JokeBlock />
+
+        <p script="/.netlify/functions/function_test"></p>
       </main>
       <Footer />
     </div>

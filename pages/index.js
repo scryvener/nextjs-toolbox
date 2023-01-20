@@ -21,6 +21,10 @@ export default function Home() {
         </p>
         <FeedbackForm />
         <JokeBlock />
+
+        <p>
+          <button type="button" onClick={"/.netlify/functions/joke"}>Click here for testing</button>
+        </p>
       </main>
       <Footer />
     </div>

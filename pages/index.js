@@ -26,13 +26,13 @@ export default function Home() {
           <button type="button" onClick={sendAlert()}>Click here for testing</button>
         </p>
 
-        <script>
-            function sendAlert(){
-              alert('Hello There')
-            }
-        </script>
+        
       </main>
       <Footer />
     </div>
   );
+}
+
+function sendAlert(){
+  alert('Hello There')
 }

@@ -21,18 +21,9 @@ export default function Home() {
         </p>
         <FeedbackForm />
         <JokeBlock />
-
-        <p>
-          <button type="button" onClick={sendAlert()}>Click here for testing</button>
-        </p>
-
-        
       </main>
       <Footer />
     </div>
   );
 }
 
-function sendAlert(){
-  console.log('Hello There')
-}

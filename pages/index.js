@@ -23,8 +23,14 @@ export default function Home() {
         <JokeBlock />
 
         <p>
-          <button type="button" onClick={"/.netlify/functions/joke"}>Click here for testing</button>
+          <button type="button" onClick={sendAlert()}>Click here for testing</button>
         </p>
+
+        <script>
+            function sendAlert(){
+              alert('Hello There')
+            }
+        </script>
       </main>
       <Footer />
     </div>

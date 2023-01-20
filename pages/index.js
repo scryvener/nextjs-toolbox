@@ -34,5 +34,5 @@ export default function Home() {
 }
 
 function sendAlert(){
-  alert('Hello There')
+  console.log('Hello There')
 }
